@@ -1,0 +1,6 @@
+January 24, 2021
+
+Started the Google-Homepage project on The Odin Project. I am to write code that duplicates the Google homepage, without any working links, and push the project to GitHub. I've already set up a repo on GitHub for google-homepage and pulled the repo from GitHub to my local machine, all using the Terminal. I'll be implementing HTML and CSS in Visual Studio Code and using the developer tools on Google Chrome to try to mimic the code of Google's homepage as closely as possible to get the same visual. I'll write an update on the README.md file as a reflection after I've completed the project.
+
+- - -
+
