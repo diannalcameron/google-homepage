@@ -6,39 +6,88 @@
 
     <style>
 
-        #header {
-            padding: 10px;
+        .header-left {
             font-family: arial, sans-serif;
             font-size: 14px;
             color: #222;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
         }
 
-        .left-nav {
-            align-content: left;
+        .header-right {
+            font-family: arial, sans-serif;
+            font-size: 14px;
+            color: #222;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
         }
 
-        .right-nav {
-            align-content: right;
+        .about {
+            padding: 14px 14px 14px 16px;
+        }
+
+        .store {
+            padding: 14px 14px 14px 10px;
+        }
+
+        .gmail {
+            padding: 14px 14px 14px 16px;
+        }
+
+        .images {
+            padding: 14px 14px 14px 16px;
+        }
+
+        .apps {
+            padding: 14px 14px 14px 16px;
+        }
+
+        .account {
+            padding: 14px 14px 14px 16px;
         }
 
         #body {
-            align-content: center;
+            text-align: center;
+            display: flex;
+        }
+
+        #footer {
+            display: flex;
         }
 
     </style>
 
     <header>
-        <div id="header">
-            <nav class="left-nav">
+        <div class="header-left">
+            
+            <div class="about">
                 <a href="about">About</a>
+            </div>
+            <div class="store">
                 <a href="store">Store</a>
-            </nav>
-            <nav class="right-nav">
+            </div>
+
+        </div>
+        
+        <div class="header-right">
+            
+            <div class="gmail">
                 <a href="gmail">Gmail</a>
+            </div>
+            <div class="images">
                 <a href="images">Images</a>
+            </div>
+            <div class="apps">
                 Apps
-                <img src="https://lh3.googleusercontent.com/ogw/ADGmqu8cfgnlChktbjAKKX6zhMMtue8dMw3Q-doNdKpA=s32-c-mo">
-            </nav>
+            </div>
+            <div class ="account">
+                Account
+            </div>
+
         </div>
     </header>
 
