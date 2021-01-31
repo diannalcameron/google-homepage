@@ -6,13 +6,25 @@
 
     <style>
 
+        a {
+            color: #222;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        #header {
+            display: flex;
+            flex-direction: row;
+        }
+
         .header-left {
             font-family: arial, sans-serif;
             font-size: 14px;
             color: #222;
-            background-color: #ffffff;
             display: flex;
-            flex-direction: row;
             justify-content: flex-start;
         }
 
@@ -20,33 +32,11 @@
             font-family: arial, sans-serif;
             font-size: 14px;
             color: #222;
-            background-color: #ffffff;
             display: flex;
-            flex-direction: row;
             justify-content: flex-end;
         }
 
-        .about {
-            padding: 14px 14px 14px 16px;
-        }
-
-        .store {
-            padding: 14px 14px 14px 10px;
-        }
-
-        .gmail {
-            padding: 14px 14px 14px 16px;
-        }
-
-        .images {
-            padding: 14px 14px 14px 16px;
-        }
-
-        .apps {
-            padding: 14px 14px 14px 16px;
-        }
-
-        .account {
+        .about, .store, .gmail, .images, .apps, .account {
             padding: 14px 14px 14px 16px;
         }
 
