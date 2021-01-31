@@ -2,10 +2,10 @@
 
 <!DOCTYPE html>
 <html>
+
     <title>Google-Homepage Project</title>
 
     <style>
-
         a {
             color: #222;
             text-decoration: none;
@@ -36,35 +36,72 @@
             justify-content: flex-end;
         }
 
-        .about, .store, .gmail, .images, .apps, .account {
+        .about, .store, .gmail, .images, .apps, .account, .business, .how-search-works, .privacy, .terms {
             padding: 14px 14px 14px 16px;
         }
 
-        #body {
+        .advertising {
+            padding: 14px 14px 14px 150px;
+        }
+
+        .settings {
+            padding: 14px 150px 14px 16px;
+        }
+
+        .logo {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 270px;
+            padding: 0px 0px 20px 0px;
+        }
+
+        .search-bar {
             text-align: center;
-            display: flex;
+            padding: 0px 0px 20px 0px;
+        }
+
+        .buttons {
+            text-align: center;
         }
 
         #footer {
-            display: flex;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: lightgray;
+            text-align: center;
+            font-family: arial, sans-serif;
+            font-size: 14px;
+            color: #777;
         }
 
+        .footer-bottom-left {
+            padding: 14px;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .footer-bottom-right {
+            padding: 14px;
+            display: flex;
+            justify-content: flex-end;
+        }
     </style>
+
 
     <header>
         <div class="header-left">
-            
             <div class="about">
                 <a href="about">About</a>
             </div>
             <div class="store">
                 <a href="store">Store</a>
             </div>
-
         </div>
         
         <div class="header-right">
-            
             <div class="gmail">
                 <a href="gmail">Gmail</a>
             </div>
@@ -77,37 +114,55 @@
             <div class ="account">
                 Account
             </div>
-
         </div>
     </header>
 
+
     <body>
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo" class="logo">
 
-        <img src="/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        <div class="search-bar">
+            Search Bar
+        </div>
 
-        Search Bar
-
-        Buttons
+       <div class="buttons">
             Google Search
             I'm Feeling Lucky
-
+       </div>
     </body>
 
     <footer>
+    <div id="footer">
 
-        Left
-            Advertising
-            Business
-            How Search works
+        <p>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC"> Carbon neutral since 2007
+        </p>
 
-        Center
-            <img src="Leaf Image"> Carbon neutral since 2007
+        <div class="footer-bottom-left">
+            <div class="advertising">
+                <a href="advertising" style="color: #777;">Advertising</a>
+            </div>
+            <div class="business">
+                <a href="business" style="color: #777;">Business</a>
+            </div>
+            <div class="how-search-works" style="color: #777;">
+                <a href="How Search works" style="color: #777;">How Search works</a>
+            </div>
+        </div>
 
-        Right
-            Privacy
-            Terms
-            Settings
+        <div class="footer-bottom-right">
+            <div class="privacy">
+                <a href="privacy" style="color: #777;">Privacy</a>
+            </div>
+            <div class="terms">
+                <a href="terms" style="color: #777;">Terms</a>
+            </div>
+            <div class="settings">
+                <a href="settings" style="color: #777;">Settings</a>
+            </div>
+        </div>
 
+    </div>
     </footer>
 
 </html>
