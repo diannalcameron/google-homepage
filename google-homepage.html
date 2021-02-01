@@ -15,9 +15,8 @@
             text-decoration: underline;
         }
 
-        #header {
-            display: flex;
-            flex-direction: row;
+        p {
+            padding: 70px 0px 30px 0px;
         }
 
         .header-left {
@@ -26,6 +25,7 @@
             color: #222;
             display: flex;
             justify-content: flex-start;
+            float: left;
         }
 
         .header-right {
@@ -34,6 +34,7 @@
             color: #222;
             display: flex;
             justify-content: flex-end;
+            float: right;
         }
 
         .about, .store, .gmail, .images, .apps, .account, .business, .how-search-works, .privacy, .terms {
@@ -53,7 +54,6 @@
             margin-left: auto;
             margin-right: auto;
             width: 270px;
-            padding: 0px 0px 20px 0px;
         }
 
         .search-bar {
@@ -81,12 +81,14 @@
             padding: 14px;
             display: flex;
             justify-content: flex-start;
+            float: left;
         }
 
         .footer-bottom-right {
             padding: 14px;
             display: flex;
             justify-content: flex-end;
+            float: right;
         }
     </style>
 
@@ -119,7 +121,9 @@
 
 
     <body>
-        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo" class="logo">
+        <p>
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo" class="logo">
+        </p>
 
         <div class="search-bar">
             Search Bar
@@ -134,7 +138,7 @@
     <footer>
     <div id="footer">
 
-        <p>
+        <p style="padding: 0px">
             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC"> Carbon neutral since 2007
         </p>
 
